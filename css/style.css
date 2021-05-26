@@ -1,0 +1,83 @@
+/* Global styles */
+
+body {
+	margin: 0;
+	background-color: #e5e5e5;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+}
+
+/* Typography */
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+/* Layout */
+
+.logo {
+	display: block;
+	margin: 30px auto;
+	width: 300px;
+}
+
+.about {
+	background-color: #fcfcfc;
+	width: 800px;
+	margin: 50px auto;
+	padding: 30px 100px;
+	text-align: center;
+}
+
+.starter {
+	background-color: #fff;
+	width: 800px;
+	margin: 50px auto;
+	padding: 30px 100px;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+}
+
+img {
+	width: 100px;
+}
+
+.card {
+	margin: 50px 10px;
+	padding: 10px 20px;
+	width: 250px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+.card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+	background-color: #2a5dad;
+	padding: 5px 0;
+}
+
+.created {
+	color: #e5e5e5;
+	font-size: 16px;
+	text-align: center;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
